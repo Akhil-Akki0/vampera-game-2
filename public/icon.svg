@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="42%" r="60%">
+      <stop offset="0%" stop-color="#291224"/>
+      <stop offset="100%" stop-color="#07090e"/>
+    </radialGradient>
+    <linearGradient id="crimson" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ef4444"/>
+      <stop offset="100%" stop-color="#7f1d1d"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fde68a"/>
+      <stop offset="100%" stop-color="#b45309"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="96" fill="url(#bg)"/>
+  <circle cx="256" cy="240" r="176" fill="none" stroke="url(#gold)" stroke-width="14"/>
+  <!-- Bat wings crest -->
+  <path d="M84 228 C132 162 192 174 220 218 L256 178 L292 218 C320 174 380 162 428 228 C382 246 350 282 326 306 C296 274 276 286 256 322 C236 286 216 274 186 306 C162 282 130 246 84 228 Z" fill="url(#crimson)" stroke="#07090e" stroke-width="10"/>
+  <!-- Vampire fangs -->
+  <path d="M196 276 L216 368 L240 284 Z" fill="#f8fafc" stroke="#07090e" stroke-width="8"/>
+  <path d="M316 276 L296 368 L272 284 Z" fill="#f8fafc" stroke="#07090e" stroke-width="8"/>
+  <!-- Glowing eyes -->
+  <ellipse cx="222" cy="226" rx="14" ry="9" fill="#fef08a"/>
+  <ellipse cx="290" cy="226" rx="14" ry="9" fill="#fef08a"/>
+</svg>
